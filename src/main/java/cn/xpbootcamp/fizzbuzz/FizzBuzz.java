@@ -20,14 +20,16 @@ public class FizzBuzz {
         else if (str_i.contains("3")){
                 res += "Fizz";
         }
-        else if (i%3==0)
-            res += "Fizz";
-        else if (i%5==0)
-            res += "Buzz";
-        else if (i%7==0)
-            res += "Whizz";
-        else 
-            res += i;
+        else {
+            if (i%3==0)
+                res += "Fizz";
+            if (i%5==0)
+                res += "Buzz";
+            if (i%7==0)
+                res += "Whizz";
+            if (i%3!=0 && i%5!=0 && i%7!=0)
+                res += i;
+        } 
         return res;
     }
 }

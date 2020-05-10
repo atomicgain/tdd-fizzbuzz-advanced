@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-10T12:43:36" hostname="tdd" time="0.039">
+<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-10T16:27:38" hostname="tdd" time="0.047">
   <properties/>
-  <testcase name="Test15IsFizzBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.034"/>
-  <testcase name="TestInclude13IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude63IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude55IsBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
-  <testcase name="TestThreeIsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude30IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test1Is1" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test2Is2" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
-  <testcase name="Test4Is4" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test8Is8" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestSevenIsWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test105IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude35IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude77IsWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestFiveIsFuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test35IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude7IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Whizz_when_number_is_77" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.036"/>
+  <testcase name="should_return_Fizz_when_number_is_13" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_is_30" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_is_63" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_2_when_number_is_2" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_1_when_number_is_1" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_FizzWhizz_when_number_is_21" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_FizzBuzz_when_number_is_15" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Buzz_when_number_is_55" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_BuzzWhizz_when_number_is_35" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.002"/>
+  <testcase name="should_return_4_when_number_is_4" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Whizz_when_number_is_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_include_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_8_when_number_is_8" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fuzz_when_number_is_5" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.005"/>
+  <testcase name="should_return_Fizz_when_number_is_3" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_BuzzWhizz_when_number_is_105" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
