@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-10T12:22:21" hostname="tdd" time="0.035">
+<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-10T12:43:36" hostname="tdd" time="0.039">
   <properties/>
-  <testcase name="Test15IsFizzBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.03"/>
+  <testcase name="Test15IsFizzBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.034"/>
   <testcase name="TestInclude13IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="TestInclude63IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
-  <testcase name="TestInclude55IsBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="TestInclude63IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="TestInclude55IsBuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
   <testcase name="TestThreeIsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="TestInclude30IsFizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="Test1Is1" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test2Is2" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="Test2Is2" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
   <testcase name="Test4Is4" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="Test8Is8" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="TestSevenIsWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="Test105IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
+  <testcase name="Test105IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="TestInclude35IsBuzzWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="TestInclude77IsWhizz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="TestFiveIsFuzz" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
