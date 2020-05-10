@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-10T16:27:38" hostname="tdd" time="0.047">
+<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-10T16:48:31" hostname="tdd" time="0.03">
   <properties/>
-  <testcase name="should_return_Whizz_when_number_is_77" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.036"/>
-  <testcase name="should_return_Fizz_when_number_is_13" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Fizz_when_number_is_30" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Fizz_when_number_is_63" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_2_when_number_is_2" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_1_when_number_is_1" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_BuzzWhizz_when_number_include_5" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.028"/>
+  <testcase name="should_return_Fuzz_when_number_is_5_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Whizz_when_number_is_7_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_is_3_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_itself_when_number_is_othercase" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_FizzWhizz_when_number_is_21" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_FizzBuzz_when_number_is_15" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Buzz_when_number_is_55" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_BuzzWhizz_when_number_is_35" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.002"/>
-  <testcase name="should_return_4_when_number_is_4" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Whizz_when_number_is_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_include_3" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_Fizz_when_number_include_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_8_when_number_is_8" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Fuzz_when_number_is_5" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.005"/>
-  <testcase name="should_return_Fizz_when_number_is_3" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_BuzzWhizz_when_number_is_105" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

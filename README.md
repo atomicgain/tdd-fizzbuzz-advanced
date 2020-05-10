@@ -32,49 +32,31 @@
 
 > Task :test
 
-TestFizzBuzz > Test15IsFizzBuzz PASSED
+TestFizzBuzz > should_return_BuzzWhizz_when_number_include_5 PASSED
 
-TestFizzBuzz > TestInclude13IsFizz PASSED
+TestFizzBuzz > should_return_Fuzz_when_number_is_5_multiple PASSED
 
-TestFizzBuzz > TestInclude63IsFizz PASSED
+TestFizzBuzz > should_return_Whizz_when_number_is_7_multiple PASSED
 
-TestFizzBuzz > TestInclude55IsBuzz PASSED
+TestFizzBuzz > should_return_Fizz_when_number_is_3_multiple PASSED
 
-TestFizzBuzz > TestThreeIsFizz PASSED
+TestFizzBuzz > should_return_itself_when_number_is_othercase PASSED
 
-TestFizzBuzz > TestInclude30IsFizz PASSED
+TestFizzBuzz > should_return_FizzWhizz_when_number_is_21 PASSED
 
-TestFizzBuzz > Test1Is1 PASSED
+TestFizzBuzz > should_return_Fizz_when_number_include_3 PASSED
 
-TestFizzBuzz > Test2Is2 PASSED
+TestFizzBuzz > should_return_Fizz_when_number_include_7 PASSED
 
-TestFizzBuzz > Test4Is4 PASSED
-
-TestFizzBuzz > Test8Is8 PASSED
-
-TestFizzBuzz > TestSevenIsWhizz PASSED
-
-TestFizzBuzz > Test105IsBuzzWhizz PASSED
-
-TestFizzBuzz > TestInclude35IsBuzzWhizz PASSED
-
-TestFizzBuzz > TestInclude77IsWhizz PASSED
-
-TestFizzBuzz > TestFiveIsFuzz PASSED
-
-TestFizzBuzz > Test35IsBuzzWhizz PASSED
-
-TestFizzBuzz > TestInclude7IsFizz PASSED
-
------------------------------------------------------------------
- Result: SUCCESS (17 Tests, 17 Successes, 0 Failures, 0 Skipped)
------------------------------------------------------------------
+---------------------------------------------------------------
+ Result: SUCCESS (8 Tests, 8 Successes, 0 Failures, 0 Skipped)
+---------------------------------------------------------------
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 1s
-3 actionable tasks: 3 executed
+3 actionable tasks: 2 executed, 1 up-to-date
 [root@tdd tdd-fizzbuzz-advanced]#
 ~~~
