@@ -69,5 +69,75 @@ public class TestFizzBuzz {
             assertThat(fizzBuzz.say(4)).isEqualTo("4");
             assertThat(fizzBuzz.say(8)).isEqualTo("8");
       }
+     
+      @Test
+      public void full_test () {
+            assertThat(fizzBuzz.say( 1 )).isEqualTo(  "1" );
+            assertThat(fizzBuzz.say( 3 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 4 )).isEqualTo(  "4" );
+            assertThat(fizzBuzz.say( 5 )).isEqualTo(  "Buzz" );
+            assertThat(fizzBuzz.say( 6 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 7 )).isEqualTo(  "Whizz" );
+            assertThat(fizzBuzz.say( 10 )).isEqualTo(  "Buzz" );
+            assertThat(fizzBuzz.say( 13 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 14 )).isEqualTo(  "Whizz" );
+            assertThat(fizzBuzz.say( 15 )).isEqualTo(  "Buzz" );
+            assertThat(fizzBuzz.say( 17 )).isEqualTo(  "17" );
+            assertThat(fizzBuzz.say( 21 )).isEqualTo(  "FizzWhizz" );
+            assertThat(fizzBuzz.say( 27 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 30 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 35 )).isEqualTo(  "BuzzWhizz" );
+            // assertThat(fizzBuzz.say( 37 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 51 )).isEqualTo(  "51" );
+            // assertThat(fizzBuzz.say( 52 )).isEqualTo(  "52" );
+            // assertThat(fizzBuzz.say( 53 )).isEqualTo(  "53" );
+            // assertThat(fizzBuzz.say( 56 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 57 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 60 )).isEqualTo(  "FizzBuzz" );
+            // assertThat(fizzBuzz.say( 63 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 70 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 73 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 75 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 105 )).isEqualTo(  "BuzzWhizz" );
+            // assertThat(fizzBuzz.say( 130 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 133 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 135 )).isEqualTo(  "Buzz" );
+            // assertThat(fizzBuzz.say( 140 )).isEqualTo(  "BuzzWhizz" );
+            // assertThat(fizzBuzz.say( 147 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 153 )).isEqualTo(  "153" );
+            // assertThat(fizzBuzz.say( 157 )).isEqualTo(  "157" );
+            // assertThat(fizzBuzz.say( 170 )).isEqualTo(  "170" );
+            // assertThat(fizzBuzz.say( 175 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 210 )).isEqualTo(  "FizzBuzzWhizz" );
+            // assertThat(fizzBuzz.say( 235 )).isEqualTo(  "Buzz" );
+            // assertThat(fizzBuzz.say( 237 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 245 )).isEqualTo(  "BuzzWhizz" );
+            // assertThat(fizzBuzz.say( 252 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 270 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 275 )).isEqualTo(  "275" );
+            // assertThat(fizzBuzz.say( 315 )).isEqualTo(  "BuzzWhizz" );
+            // assertThat(fizzBuzz.say( 357 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 370 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 371 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 375 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 378 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 532 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 537 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 567 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 574 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 630 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 735 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 1330 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 1357 )).isEqualTo(  "1357" );
+            // assertThat(fizzBuzz.say( 1375 )).isEqualTo(  "1375" );
+            // assertThat(fizzBuzz.say( 1470 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 1533 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 1575 )).isEqualTo(  "FizzWhizz" );
+            // assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 3157 )).isEqualTo(  "Whizz" );
+            // assertThat(fizzBuzz.say( 3710 )).isEqualTo(  "Fizz" );
+            // assertThat(fizzBuzz.say( 3745 )).isEqualTo(  "Whizz" );
+	}
       
 }

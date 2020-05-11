@@ -10,6 +10,8 @@ public class FizzBuzz {
                 res += "Fizz";
             if (i%7==0)
                 res += "Whizz";
+            if (i%3!=0 && i%7!=0)
+                res += i;
         }
         else if (str_i.contains("5")){
             if (i%5==0)
