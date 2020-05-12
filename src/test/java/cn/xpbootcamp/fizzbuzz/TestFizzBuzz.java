@@ -35,6 +35,7 @@ public class TestFizzBuzz {
             assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
       }
 
+
 /**
  *  如果数字中包含3 则忽略3,5,7倍数的判断
  */
@@ -44,26 +45,26 @@ public class TestFizzBuzz {
             assertThat(fizzBuzz.say(30)).isEqualTo("Fizz");
       }
 /**
- *  如果数字中包含3 则忽略3,5,7倍数的判断
+ *  如果数字中包含5 则忽略3倍数的判断
  */
-//      @Test
-//      public void should_return_Fizz_when_number_include_3() {
-//            assertThat(fizzBuzz.say(13)).isEqualTo("Fizz");
-//            assertThat(fizzBuzz.say(30)).isEqualTo("Fizz");
-//            assertThat(fizzBuzz.say(30)).isEqualTo("Fizz");
-//      }
-
+      @Test
+      public void should_return_BuzzWhizz_when_number_include_5() {
+            assertThat(fizzBuzz.say(35)).isEqualTo("BuzzWhizz");
+            assertThat(fizzBuzz.say(55)).isEqualTo("Buzz");
+            assertThat(fizzBuzz.say(105)).isEqualTo("BuzzWhizz");
+            assertThat(fizzBuzz.say(15)).isEqualTo("Buzz");
+      }
 /**
  *  如果数字中包含7 则忽略5倍数的判断
  */
-    @Test
-    public void should_return_Fizz_when_number_include_7() {
-        assertThat(fizzBuzz.say(75)).isEqualTo("Fizz");
-        assertThat(fizzBuzz.say(77)).isEqualTo("Whizz");
-    }
+//      @Test
+//      public void should_return_Fizz_when_number_include_7() {
+//            assertThat(fizzBuzz.say(75)).isEqualTo("Fizz");
+//            assertThat(fizzBuzz.say(77)).isEqualTo("Whizz");
+//      }
 
 
-    /**
+/**
  *  如果为其它则输出 数字本身
  **/
 //      @Test
