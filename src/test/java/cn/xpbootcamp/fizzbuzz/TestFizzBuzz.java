@@ -126,23 +126,23 @@ public class TestFizzBuzz {
             assertThat(fizzBuzz.say( 371 )).isEqualTo(  "Fizz" );
             assertThat(fizzBuzz.say( 375 )).isEqualTo(  "Fizz" );
             assertThat(fizzBuzz.say( 378 )).isEqualTo(  "Fizz" );  //? 7 multiple rule 7
-             assertThat(fizzBuzz.say( 532 )).isEqualTo(  "Whizz" );
-             assertThat(fizzBuzz.say( 537 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 567 )).isEqualTo(  "FizzWhizz" );
-             assertThat(fizzBuzz.say( 574 )).isEqualTo(  "Whizz" );
-             assertThat(fizzBuzz.say( 630 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 735 )).isEqualTo(  "FizzWhizz" );
-             assertThat(fizzBuzz.say( 1330 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 1357 )).isEqualTo(  "1357" ); //? rule 4
-             assertThat(fizzBuzz.say( 1375 )).isEqualTo(  "1375" ); //? rule 4
-             assertThat(fizzBuzz.say( 1470 )).isEqualTo(  "FizzWhizz" );
-             assertThat(fizzBuzz.say( 1533 )).isEqualTo(  "Whizz" );
-             assertThat(fizzBuzz.say( 1575 )).isEqualTo(  "FizzWhizz" );
-             assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 3157 )).isEqualTo(  "Whizz" ); //? rule 4
-             assertThat(fizzBuzz.say( 3710 )).isEqualTo(  "Fizz" );
-             assertThat(fizzBuzz.say( 3745 )).isEqualTo(  "Whizz" );  //? rule 4
+            assertThat(fizzBuzz.say( 532 )).isEqualTo(  "Whizz" );
+            assertThat(fizzBuzz.say( 537 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 567 )).isEqualTo(  "FizzWhizz" );
+            assertThat(fizzBuzz.say( 574 )).isEqualTo(  "Whizz" );
+            assertThat(fizzBuzz.say( 630 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 735 )).isEqualTo(  "FizzWhizz" );
+            assertThat(fizzBuzz.say( 1330 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 1357 )).isEqualTo(  "1357" ); //? rule 4
+            assertThat(fizzBuzz.say( 1375 )).isEqualTo(  "1375" ); //? rule 4
+            assertThat(fizzBuzz.say( 1470 )).isEqualTo(  "FizzWhizz" );
+            assertThat(fizzBuzz.say( 1533 )).isEqualTo(  "Whizz" );
+            assertThat(fizzBuzz.say( 1575 )).isEqualTo(  "FizzWhizz" );
+            assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 2370 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 3157 )).isEqualTo(  "Whizz" ); //? rule 4
+            assertThat(fizzBuzz.say( 3710 )).isEqualTo(  "Fizz" );
+            assertThat(fizzBuzz.say( 3745 )).isEqualTo(  "Whizz" );  //? rule 4
       }
       
       
