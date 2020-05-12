@@ -67,13 +67,13 @@ public class TestFizzBuzz {
 /**
  *  如果为其它则输出 数字本身
  **/
-//      @Test
-//      public void should_return_itself_when_number_is_othercase() {
-//            assertThat(fizzBuzz.say(1)).isEqualTo("1");
-//            assertThat(fizzBuzz.say(2)).isEqualTo("2");
-//            assertThat(fizzBuzz.say(4)).isEqualTo("4");
-//            assertThat(fizzBuzz.say(8)).isEqualTo("8");
-//      }
+      @Test
+      public void should_return_itself_when_number_is_othercase() {
+            assertThat(fizzBuzz.say(1)).isEqualTo("1");
+            assertThat(fizzBuzz.say(2)).isEqualTo("2");
+            assertThat(fizzBuzz.say(4)).isEqualTo("4");
+            assertThat(fizzBuzz.say(8)).isEqualTo("8");
+      }
      
       @Test
       public void full_test () {
