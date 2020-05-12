@@ -31,6 +31,7 @@
 GIVEN 3 的倍数 WHEN  say THEN  Fizz
 GIVEN 5 的倍数 WHEN  say THEN  Buzz
 GIVEN 7 的倍数 WHEN  say THEN  Whizz 
+GIVEN 3 and 7 的倍数 WHEN  say THEN  FizzWhizz 
 
 
 ~~~

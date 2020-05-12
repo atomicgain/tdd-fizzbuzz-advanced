@@ -27,10 +27,13 @@ public class TestFizzBuzz {
       public void should_return_Whizz_when_number_is_7_multiple() {
             assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
       }
-//      @Test
-//      public void should_return_FizzWhizz_when_number_is_21() {
-//            assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
-//      }
+/**
+ *  如果为3 and 7 的倍数则输出 FizzWhizz
+ **/
+      @Test
+      public void should_return_FizzWhizz_when_number_is_21() {
+            assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
+      }
 /**
  *  如果数字中包含7 则忽略5倍数的判断
  */
