@@ -15,6 +15,17 @@ public class FizzBuzz {
                     res += i;
                 return res;
             }
+            if (!str_i.contains("5")){
+                if (str_i.contains("3"))
+                    return "Fizz";
+                if (i%3==0)
+                    res += "Fizz";
+                if (i%7==0)
+                    res += "Whizz";  //378 ? rule 7
+                if (i%3!=0 && i%7!=0)
+                    res += i;
+                return res;
+            }
             if (str_i.contains("3") && i%3!=0)
                 return "Fizz";
             if (i%3==0)

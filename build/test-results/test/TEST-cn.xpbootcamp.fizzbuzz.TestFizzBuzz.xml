@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-11T17:46:59" hostname="DonerdeMacBook-Pro.local" time="0.043">
+<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-12T02:52:20" hostname="DonerdeMacBook-Pro.local" time="0.04">
   <properties/>
-  <testcase name="full_test" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.043"/>
+  <testcase name="full_test" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.039"/>
+  <testcase name="should_return_Fizz_when_number_is_3_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

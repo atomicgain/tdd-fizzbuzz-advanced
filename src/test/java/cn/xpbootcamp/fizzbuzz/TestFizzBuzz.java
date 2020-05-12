@@ -3,6 +3,34 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.*;
 public class TestFizzBuzz {
       FizzBuzz fizzBuzz = new FizzBuzz();
+
+      
+/**
+ *  如果为3 的倍数则输出 Fizz
+ */
+      @Test
+      public void should_return_Fizz_when_number_is_3_multiple() {
+            assertThat(fizzBuzz.say(3)).isEqualTo("Fizz");
+            assertThat(fizzBuzz.say(6)).isEqualTo("Fizz");
+      }
+/**
+ *  如果为5 的倍数则输出 Buzz
+ **/
+//      @Test
+//      public void should_return_Fuzz_when_number_is_5_multiple() {
+//            assertThat(fizzBuzz.say(5)).isEqualTo("Buzz");
+//      }
+/**
+ *  如果为7 的倍数则输出 Whizz
+ **/
+//      @Test
+//      public void should_return_Whizz_when_number_is_7_multiple() {
+//            assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
+//      }
+//      @Test
+//      public void should_return_FizzWhizz_when_number_is_21() {
+//            assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
+//      }
 /**
  *  如果数字中包含7 则忽略5倍数的判断
  */
@@ -31,34 +59,6 @@ public class TestFizzBuzz {
 //            assertThat(fizzBuzz.say(30)).isEqualTo("Fizz");
 //            assertThat(fizzBuzz.say(30)).isEqualTo("Fizz");
 //      }
-      
-/**
- *  如果为3 的倍数则输出 Fizz
- */
-//      @Test
-//      public void should_return_Fizz_when_number_is_3_multiple() {
-//            assertThat(fizzBuzz.say(3)).isEqualTo("Fizz");
-//            assertThat(fizzBuzz.say(6)).isEqualTo("Fizz");
-//      }
-/**
- *  如果为5 的倍数则输出 Buzz
- **/
-//      @Test
-//      public void should_return_Fuzz_when_number_is_5_multiple() {
-//            assertThat(fizzBuzz.say(5)).isEqualTo("Buzz");
-//      }
-/**
- *  如果为7 的倍数则输出 Whizz
- **/
-//      @Test
-//      public void should_return_Whizz_when_number_is_7_multiple() {
-//            assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
-//      }
-//      @Test
-//      public void should_return_FizzWhizz_when_number_is_21() {
-//            assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
-//      }
-
 /**
  *  如果为其它则输出 数字本身
  **/
@@ -120,7 +120,7 @@ public class TestFizzBuzz {
             assertThat(fizzBuzz.say( 370 )).isEqualTo(  "Fizz" );
             assertThat(fizzBuzz.say( 371 )).isEqualTo(  "Fizz" );
             assertThat(fizzBuzz.say( 375 )).isEqualTo(  "Fizz" );
-//            assertThat(fizzBuzz.say( 378 )).isEqualTo(  "Fizz" );  //? 7 multiple rule 7
+            assertThat(fizzBuzz.say( 378 )).isEqualTo(  "Fizz" );  //? 7 multiple rule 7
              assertThat(fizzBuzz.say( 532 )).isEqualTo(  "Whizz" );
              assertThat(fizzBuzz.say( 537 )).isEqualTo(  "Fizz" );
              assertThat(fizzBuzz.say( 567 )).isEqualTo(  "FizzWhizz" );

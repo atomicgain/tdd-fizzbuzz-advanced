@@ -25,38 +25,12 @@
 
 
 
-## log
+## tasking
 
 ~~~
-[root@tdd tdd-fizzbuzz-advanced]# gradle test
+GIVEN 3 的倍数 WHEN  say THEN  Fizz
 
-> Task :test
 
-TestFizzBuzz > should_return_BuzzWhizz_when_number_include_5 PASSED
-
-TestFizzBuzz > should_return_Fuzz_when_number_is_5_multiple PASSED
-
-TestFizzBuzz > should_return_Whizz_when_number_is_7_multiple PASSED
-
-TestFizzBuzz > should_return_Fizz_when_number_is_3_multiple PASSED
-
-TestFizzBuzz > should_return_itself_when_number_is_othercase PASSED
-
-TestFizzBuzz > should_return_FizzWhizz_when_number_is_21 PASSED
-
-TestFizzBuzz > should_return_Fizz_when_number_include_3 PASSED
-
-TestFizzBuzz > should_return_Fizz_when_number_include_7 PASSED
-
----------------------------------------------------------------
- Result: SUCCESS (8 Tests, 8 Successes, 0 Failures, 0 Skipped)
----------------------------------------------------------------
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 1s
-3 actionable tasks: 2 executed, 1 up-to-date
-[root@tdd tdd-fizzbuzz-advanced]#
 ~~~
+
+
