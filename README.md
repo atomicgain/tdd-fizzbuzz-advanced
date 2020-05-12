@@ -32,6 +32,9 @@ GIVEN 3 的倍数 WHEN  say THEN  Fizz
 GIVEN 5 的倍数 WHEN  say THEN  Buzz
 GIVEN 7 的倍数 WHEN  say THEN  Whizz 
 GIVEN 3 and 7 的倍数 WHEN  say THEN  FizzWhizz 
+GIVEN 包含3 则忽略 3,5,7 的倍数判断  WHEN  say THEN  Fizz
+
+GIVEN 包含7 则忽略5 的倍数判断 75  WHEN  say THEN  Fizz
 
 
 ~~~
