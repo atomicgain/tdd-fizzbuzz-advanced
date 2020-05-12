@@ -16,17 +16,17 @@ public class TestFizzBuzz {
 /**
  *  如果为5 的倍数则输出 Buzz
  **/
-//      @Test
-//      public void should_return_Fuzz_when_number_is_5_multiple() {
-//            assertThat(fizzBuzz.say(5)).isEqualTo("Buzz");
-//      }
+      @Test
+      public void should_return_Fuzz_when_number_is_5_multiple() {
+            assertThat(fizzBuzz.say(5)).isEqualTo("Buzz");
+      }
 /**
  *  如果为7 的倍数则输出 Whizz
  **/
-//      @Test
-//      public void should_return_Whizz_when_number_is_7_multiple() {
-//            assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
-//      }
+      @Test
+      public void should_return_Whizz_when_number_is_7_multiple() {
+            assertThat(fizzBuzz.say(7)).isEqualTo("Whizz");
+      }
 //      @Test
 //      public void should_return_FizzWhizz_when_number_is_21() {
 //            assertThat(fizzBuzz.say(21)).isEqualTo("FizzWhizz");
