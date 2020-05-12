@@ -57,11 +57,11 @@ public class TestFizzBuzz {
 /**
  *  如果数字中包含7 则忽略5倍数的判断
  */
-//      @Test
-//      public void should_return_Fizz_when_number_include_7() {
-//            assertThat(fizzBuzz.say(75)).isEqualTo("Fizz");
-//            assertThat(fizzBuzz.say(77)).isEqualTo("Whizz");
-//      }
+      @Test
+      public void should_return_Fizz_when_number_include_7() {
+            assertThat(fizzBuzz.say(75)).isEqualTo("Fizz");
+            assertThat(fizzBuzz.say(77)).isEqualTo("Whizz");
+      }
 
 
 /**
