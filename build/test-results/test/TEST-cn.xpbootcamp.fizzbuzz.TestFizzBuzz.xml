@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-12T03:20:20" hostname="DonerdeMacBook-Pro.local" time="0.041">
+<testsuite name="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-05-12T03:21:34" hostname="DonerdeMacBook-Pro.local" time="0.048">
   <properties/>
-  <testcase name="should_return_BuzzWhizz_when_number_include_5" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.037"/>
+  <testcase name="should_return_BuzzWhizz_when_number_include_5" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.043"/>
   <testcase name="full_test" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
   <testcase name="should_return_Fuzz_when_number_is_5_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_Whizz_when_number_is_7_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Fizz_when_number_is_3_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
+  <testcase name="should_return_Fizz_when_number_is_3_multiple" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_itself_when_number_is_othercase" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_FizzWhizz_when_number_is_21" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
   <testcase name="should_return_Fizz_when_number_include_3" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
-  <testcase name="should_return_Fizz_when_number_include_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.0"/>
+  <testcase name="should_return_Fizz_when_number_include_7" classname="cn.xpbootcamp.fizzbuzz.TestFizzBuzz" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
